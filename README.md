@@ -1,2 +1,39 @@
 # gp_2424_p2
 p2_imagenes + audio + video
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p2</title>
+</head>
+<body>
+    <h1>p2_imagenes + video + audio </h1>
+    <section>
+        <h2>imagenes</h2>
+        <h3>png</h3>
+        <img src="img/pngimg.com - tiger_PNG23229.png" alt="lion">
+        <h3>jpg</h3>
+        <img src="img/819f1b395632e96506a4ce10bbd50d82.jpg" alt="cat">
+        <h3>svg</h3>
+        <img src="img/SVG_Simple_Icon.svg" alt="simbolo">
+    </section>
+    <section>
+       <h2>audio</h2> 
+       <h3>mp3</h3>
+       <audio controls autoplay muted>
+        <source src="sound/techno-minimal-235054.mp3"></audio>
+        <h3>ogg</h3>
+        <audio controls autoplay muted>
+        <source src="sound/pistol shot.ogg"></audio>
+    </section>
+    <section>
+        <h2>video</h2>
+        <h3>mp4</h3>
+        <video controls>
+        <source src="video/11722-231759069_small.mp4"></video>
+        <h3>youtube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3kqNqL5bp4Y?si=sBNhLq_6HYNeQlf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
